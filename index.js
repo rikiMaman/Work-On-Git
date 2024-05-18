@@ -5,10 +5,7 @@ import JobsRouter from './JobsRouter.js';
 import index from './index.html';
 
 const app= express()
-const arr= [1, 2, 3, 4, 5];
-const x=8,y=4;
-console.log(x*y);
-
+const arr= [1,2,3,4,5];
 app.use(cors())
 app.use(bodyParser.json())
 app.get('/', (req, res)=>{
