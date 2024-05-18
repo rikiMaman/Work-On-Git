@@ -5,7 +5,8 @@ import JobsRouter from './JobsRouter.js';
 import index from './index.html';
 
 const app= express()
-const arr= [1,2,3,4,5];
+const array= [1,2,3,4,5];
+const z = "zipi";
 app.use(cors())
 app.use(bodyParser.json())
 app.get('/', (req, res)=>{
