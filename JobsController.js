@@ -6,7 +6,7 @@ let jobs = [
 
 
 ]
-let count11 = 5
+let counts = 5
 const JobController = {
     getAll: (req, res) => {
         const { name } = req.query
